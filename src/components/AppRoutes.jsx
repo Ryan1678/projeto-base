@@ -13,6 +13,7 @@ import UsuarioEditar from "../templates/Usuario/UsuarioEditar"
 import UsuarioNovo from "../templates/Usuario/UsuarioNovo"
 import UsuariosLista from "../templates/Usuario/UsuariosLista"
 
+
 const AppRoutes = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const AppRoutes = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgotpass" element={<ForgotPass />} />
+      
 
         <Route path="/mensagem" element={<Mensagem />} />
         <Route path="/mensagemler" element={<MensagemLer />} />

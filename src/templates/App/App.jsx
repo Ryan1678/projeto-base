@@ -27,6 +27,10 @@ function App() {
               <li className="nav-item">
                 <a className="nav-link" href="#">Fale Conosco</a>
               </li>
+            <li className="nav-item">
+              <a className="nav-link" href={'/login1'}>Login</a>
+              </li>
+              
             </ul>
           </div>
         </div>
