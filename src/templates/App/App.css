@@ -1,13 +1,4 @@
 footer{
-    background-color: antiquewhite;
     padding: 10px;
     text-align: center;
 }
-
-.menu{
-    background-color: rgb(231, 134, 207); 
- }
- 
- .menu a {
-     color: rgb(255, 255, 255);
- }

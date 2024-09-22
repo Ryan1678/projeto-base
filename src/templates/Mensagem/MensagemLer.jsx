@@ -11,7 +11,7 @@ const MensagemLer = () => {
             <div className="p-3 w-100">
                 <Header
                     goto={'/mensagem'}
-                    title={'Ler Mensagem'}
+                    title={'Ler Pedido'}
                     logo={logo}
                 />
                 <section className="m-2 p-2 shadow-lg">
@@ -38,7 +38,7 @@ const MensagemLer = () => {
                                 <input type="text" className="form-control" id="inputEmissor" readOnly />
                             </div>
                         </div>
-                        <div className="row mb-3">
+                        <div className="row mb-4">
                             <label htmlFor="inputEmail" className="col-md-2 col-form-label">Email:</label>
                             <div class="col-md-10">
                                 <input type="email" className="form-control" id="inputEmail" readOnly />
@@ -46,7 +46,7 @@ const MensagemLer = () => {
                         </div>
 
                         <div className="col-md-12 mb-2">
-                            <label htmlFor="inputTexto" className="form-label">Mensagem:</label>
+                            <label htmlFor="inputTexto" className="form-label">Pedido:</label>
                             <textarea rows={5} className="form-control" id="inputTexto" >
                                 </textarea>
                         </div>

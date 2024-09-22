@@ -20,7 +20,7 @@ const Mensagem = () => {
             <div className="p-3 w-100">
                 <Header
                     goto={'/home'}
-                    title={'Mensagem'}
+                    title={'Pedidos'}
                     logo={logo}
                 />
                 <section className="p-2 m-2 shadow-lg">
@@ -39,7 +39,7 @@ const Mensagem = () => {
                             <tbody>
                                 <tr>
                                     <td scope="row">1</td>
-                                    <td>Mark</td>
+                                    <td>0/0/0000</td>
                                     <td>Otto</td>
                                     <td>@mdo</td>
                                     <td>@mdo</td>

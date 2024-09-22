@@ -3,15 +3,15 @@ import Header from "../../components/Header/Header"
 import Sidebar from '../../components/Menu/Sidebar'
 import logo from '../../assets/images/home.png'
 
-const UsuarioNovo = () => {
+const ProdutoNovo = () => {
 
     return (
         <div className="d-flex">
             <Sidebar />
             <div className="p-3 w-100">
                 <Header
-                    goto={'/usuario'}
-                    title={'Novo Usuário'}
+                    goto={'/produto'}
+                    title={'Novo Produto'}
                     logo={logo}
                 />
                 <section className="m-2 p-2 shadow-lg">
@@ -21,15 +21,17 @@ const UsuarioNovo = () => {
                             <input type="text" className="form-control" id="inputNome" />
                         </div>
                         <div className="col-md-5">
-                            <label htmlFor="inputEmail4" className="form-label">Email</label>
-                            <input type="email" className="form-control" id="inputEmail4" />
+                            <label htmlFor="inputpreço" className="form-label">Preço</label>
+                            <input type="text" className="form-control" id="inputEmail4" />
                         </div>
                        
                         <div className="col-md-2">
-                            <label htmlFor="inputAcesso" className="form-label">Acesso</label>
+                            <label htmlFor="inputAcesso" className="form-label">Tipo</label>
                             <select id="inputAcesso" className="form-select">
-                                <option selected>Nível de Acesso</option>
-                                <option>Atendente</option>
+                                <option selected>Tipo</option>
+                                <option>Salgado</option>
+                                <option>Doce</option>
+                                <option>Bebida</option>
                             </select>
                         </div>
                         
@@ -45,4 +47,4 @@ const UsuarioNovo = () => {
     )
 }
 
-export default UsuarioNovo
+export default ProdutoNovo

@@ -7,39 +7,10 @@ function App() {
 
   return (
     <div className='container'>
-      <nav className="navbar navbar-expand-lg menu">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">FIEB</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link" href="#">Inicio</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Produtos</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Quem Somos</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Fale Conosco</a>
-              </li>
-            <li className="nav-item">
-              <a className="nav-link" href={'/login1'}>Login</a>
-              </li>
-              
-            </ul>
-          </div>
-        </div>
-      </nav>
-   
       <footer>
         <Link to={'/login'}
           className='btn btn-sm btn-warning'>
-          Acesso Restrito
+          .
         </Link>
       </footer>
     </div>
